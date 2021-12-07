@@ -2,7 +2,6 @@ import numpy as np
 
 
 def get_binary_array_count(array):
-    print(array)
     zeros = np.count_nonzero(array == 0)
     ones = np.count_nonzero(array == 1)
     binary_counts = {'zeros':zeros,'ones':ones}
