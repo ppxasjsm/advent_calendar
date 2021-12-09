@@ -29,6 +29,10 @@ def compute_rates(report_data):
     multiplied = int(gamma, 2)*int(epsilon, 2)
     print(f'muliplied rates: {multiplied}')
 
+def compute_life_support_rating(report_data):
+    binary_count = get_binary_array_count(report_data[:, 0])
+
+
 
 if __name__ == '__main__':
 
